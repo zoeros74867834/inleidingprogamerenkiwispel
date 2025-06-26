@@ -1,0 +1,67 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.badknop {
+  appearance: none;
+  border: 0;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.badknop:hover {
+  scale: 1.4;
+}
+
+.steenknop {
+  appearance: none;
+  border: 0;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.steenknop:hover {
+  scale: 1.4;
+}
+
+.etenknop {
+  appearance: none;
+  border: 0;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.etenknop:hover {
+  scale: 1.4;
+}
+
+.onzichtbaar {
+  display: none;
+}
+
+.zichtbaar {
+  display: block;
+}
+
+.kiwi {
+  width: 600px;
+}
+
+.producten {
+  justify-content: center;
+}
+
+#steen {
+  width: 400px;
+}
+
+#etengras {
+  width: 400px;
+}
+
+#waterbak {
+  width: 400px;
+}
